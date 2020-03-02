@@ -1,0 +1,109 @@
+
+      .error{ background-color:#F00; }
+      .ok{ background-color:#0F0; }
+body{
+   position: relative;
+   
+}
+.container{
+    position: absolute;
+    width: 481px;
+    height: 392px;
+    left: 26.46%;
+    right: 26.46%;
+    top: 4.84%;
+    margin-top: 40px;
+    bottom: 44.92%;
+    background: #F5F3F7;
+    border-radius: 12px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.25);
+    padding: none;
+   
+}
+
+h2 {
+width: 200px;
+height: 20px;
+left: 312px;
+top: 71px;
+font-family: 'Roboto', sans-serif;
+font-weight: 700;
+font-style: normal;
+font-size: 24px;
+line-height: 20px;
+margin-left: 40px;
+margin-top: 40px;
+margin-bottom: 30px;
+color: #3B3D43;
+}
+
+input[name="name"],input[name="phone"],input[name="email"] {
+    display: flex;
+    align-items: center;
+    width: 386px;
+    height: 48px;
+    left: 312px;
+    top: 116px;
+    background: #FFFFFF;
+    border-radius: 6px;
+    border: none;
+  
+   margin-top: 20px;
+   margin-bottom: 20px;
+   margin-left: 40px;
+  
+}
+.container_submit {
+
+width: 401px;
+height: 48px;
+margin-left: 40px;
+margin-top: 20px;
+background: #6979F8;
+border-radius: 6px;
+display: flex;
+align-items:center;
+text-align: center;
+}
+.container_submit_text{
+color: #ffffff;
+margin-left: 116px;
+font-family: 'Roboto', sans-serif  ;
+font-style: normal;
+font-weight: normal;
+font-size: 15px;
+line-height: 20px;
+display: flex;
+align-items: center
+
+}
+
+#name::placeholder,
+#phone::placeholder,
+#email::placeholder 
+{
+   color: #D0C9D6;
+   padding-left: 15px;
+   font-family: 'Roboto', sans-serif  ;
+   font-style: normal;
+   font-weight: normal;
+   font-size: 15px;
+   line-height: 20px;
+}
+#name:hover,
+#phone:hover,
+#email:hover,
+.container:hover
+{
+    border: 2px  solid #C3AAE1;;
+
+} 
+input[value=""]{
+   margin-left: 40px;
+   padding-left: 15px;
+   font-family: 'Roboto', sans-serif  ;
+   font-style: normal;
+   font-weight: normal;
+   font-size: 15px;
+   line-height: 20px;
+}
